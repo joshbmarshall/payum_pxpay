@@ -34,7 +34,7 @@
         "bin-dir": "bin"
     },
     "autoload": {
-        "psr-0": { "Cognito\\PxPay\\": "" }
+        "psr-4": { "Cognito\\PxPay\\": "" }
     },
     "extra": {
         "branch-alias": {
