@@ -8,8 +8,8 @@ use Joshbmarshall\PxPay\Action\CaptureAction;
 use Joshbmarshall\PxPay\Action\NotifyAction;
 use Joshbmarshall\PxPay\Action\RefundAction;
 use Joshbmarshall\PxPay\Action\StatusAction;
-use Joshbmarshall\PxPay\Bridge\Spl\ArrayObject;
-use Joshbmarshall\PxPay\GatewayFactory;
+use Payum\Core\Bridge\Spl\ArrayObject;
+use Payum\Core\GatewayFactory;
 
 class PxPayGatewayFactory extends GatewayFactory
 {
