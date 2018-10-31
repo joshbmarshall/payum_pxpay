@@ -34,7 +34,7 @@
         "bin-dir": "bin"
     },
     "autoload": {
-        "psr-0": { "Cognito\\Payum\\PxPay": "" }
+        "psr-0": { "Cognito\\Payum\\PxPay\\": "" }
     },
     "extra": {
         "branch-alias": {
