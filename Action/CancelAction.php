@@ -1,5 +1,5 @@
 <?php
-namespace Joshbmarshall\PxPay\Action;
+namespace Cognito\PxPay\Action;
 
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\Bridge\Spl\ArrayObject;

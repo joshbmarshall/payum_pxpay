@@ -1,5 +1,5 @@
 <?php
-namespace Joshbmarshall\PxPay;
+namespace Cognito\PxPay;
 
 use Http\Message\MessageFactory;
 use Payum\Core\Exception\Http\HttpException;

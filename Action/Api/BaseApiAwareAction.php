@@ -1,12 +1,12 @@
 <?php
-namespace Joshbmarshall\PxPay\Action\Api;
+namespace Cognito\PxPay\Action\Api;
 
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\ApiAwareInterface;
 use Payum\Core\ApiAwareTrait;
 use Payum\Core\GatewayAwareInterface;
 use Payum\Core\GatewayAwareTrait;
-use Joshbmarshall\PxPay\Api;
+use Cognito\PxPay\Api;
 
 abstract class BaseApiAwareAction implements ActionInterface, GatewayAwareInterface, ApiAwareInterface
 {

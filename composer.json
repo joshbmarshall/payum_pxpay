@@ -1,5 +1,5 @@
 {
-    "name": "joshbmarshall/payum/pxpay",
+    "name": "cognito/payum/pxpay",
     "type": "project",
     "description": "The Payum extension. Payment Express PxPay",
     "keywords": ["payment"],
@@ -34,9 +34,8 @@
         "bin-dir": "bin"
     },
     "autoload": {
-        "psr-0": { "Joshbmarshall\\PxPay": "" }
+        "psr-0": { "Cognito\\Payum\\PxPay": "" }
     },
-    "target-dir": "Payum/PxPay",
     "extra": {
         "branch-alias": {
             "dev-master": "1.5-dev"

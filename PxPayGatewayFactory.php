@@ -1,13 +1,13 @@
 <?php
-namespace Joshbmarshall\PxPay;
+namespace Cognito\PxPay;
 
-use Joshbmarshall\PxPay\Action\AuthorizeAction;
-use Joshbmarshall\PxPay\Action\CancelAction;
-use Joshbmarshall\PxPay\Action\ConvertPaymentAction;
-use Joshbmarshall\PxPay\Action\CaptureAction;
-use Joshbmarshall\PxPay\Action\NotifyAction;
-use Joshbmarshall\PxPay\Action\RefundAction;
-use Joshbmarshall\PxPay\Action\StatusAction;
+use Cognito\PxPay\Action\AuthorizeAction;
+use Cognito\PxPay\Action\CancelAction;
+use Cognito\PxPay\Action\ConvertPaymentAction;
+use Cognito\PxPay\Action\CaptureAction;
+use Cognito\PxPay\Action\NotifyAction;
+use Cognito\PxPay\Action\RefundAction;
+use Cognito\PxPay\Action\StatusAction;
 use Payum\Core\Bridge\Spl\ArrayObject;
 use Payum\Core\GatewayFactory;
 
