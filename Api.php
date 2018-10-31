@@ -1,5 +1,5 @@
 <?php
-namespace Payum\Skeleton;
+namespace Joshbmarshall\PxPay;
 
 use Http\Message\MessageFactory;
 use Payum\Core\Exception\Http\HttpException;

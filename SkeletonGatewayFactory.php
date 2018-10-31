@@ -1,17 +1,17 @@
 <?php
-namespace Payum\Skeleton;
+namespace Joshbmarshall\PxPay;
 
-use Payum\Skeleton\Action\AuthorizeAction;
-use Payum\Skeleton\Action\CancelAction;
-use Payum\Skeleton\Action\ConvertPaymentAction;
-use Payum\Skeleton\Action\CaptureAction;
-use Payum\Skeleton\Action\NotifyAction;
-use Payum\Skeleton\Action\RefundAction;
-use Payum\Skeleton\Action\StatusAction;
-use Payum\Core\Bridge\Spl\ArrayObject;
-use Payum\Core\GatewayFactory;
+use Joshbmarshall\PxPay\Action\AuthorizeAction;
+use Joshbmarshall\PxPay\Action\CancelAction;
+use Joshbmarshall\PxPay\Action\ConvertPaymentAction;
+use Joshbmarshall\PxPay\Action\CaptureAction;
+use Joshbmarshall\PxPay\Action\NotifyAction;
+use Joshbmarshall\PxPay\Action\RefundAction;
+use Joshbmarshall\PxPay\Action\StatusAction;
+use Joshbmarshall\PxPay\Bridge\Spl\ArrayObject;
+use Joshbmarshall\PxPay\GatewayFactory;
 
-class SkeletonGatewayFactory extends GatewayFactory
+class PxPayGatewayFactory extends GatewayFactory
 {
     /**
      * {@inheritDoc}
@@ -19,8 +19,8 @@ class SkeletonGatewayFactory extends GatewayFactory
     protected function populateConfig(ArrayObject $config)
     {
         $config->defaults([
-            'payum.factory_name' => 'skeleton',
-            'payum.factory_title' => 'skeleton',
+            'payum.factory_name' => 'pxpay',
+            'payum.factory_title' => 'pxpay',
             'payum.action.capture' => new CaptureAction(),
             'payum.action.authorize' => new AuthorizeAction(),
             'payum.action.refund' => new RefundAction(),

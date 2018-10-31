@@ -34,7 +34,7 @@
         "bin-dir": "bin"
     },
     "autoload": {
-        "psr-0": { "Payum\\PxPay": "" }
+        "psr-0": { "Joshbmarshall\\PxPay": "" }
     },
     "target-dir": "Payum/PxPay",
     "extra": {
